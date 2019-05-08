@@ -1,0 +1,44 @@
+.title1 {
+    margin-right: -247px;
+    margin-left: 28px;
+}
+
+.cphim2 {
+    margin: 20px;
+}
+
+h1.chuhientai1 {
+    font-size: 41px;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 25px 20px;
+    text-align: center;
+}
+
+.informovie {
+    display: -webkit-box;
+    margin: 105px 123px;
+}
+
+span.booking {
+    /* position: absolute; */
+    border: 1px solid;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.anhmovie img {
+    width: 260px;
+}
+
+.phai-movie {
+    margin-right: 55px;
+}
+
+.trai-movie {
+    padding: 12px;
+}
+
+.quocgia, .daodien,.dienvien,.theloai {
+    padding: 9px;
+}
