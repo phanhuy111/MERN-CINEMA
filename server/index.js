@@ -10,7 +10,7 @@ const movieRoute = require('./routes/movie');
 const postRoute = require('./routes/post');
 
 // connect mongodb
-mongoose.connect('mongodb://cinema111:minhhuy123@ds147436.mlab.com:47436/cinema-mern', { useNewUrlParser: true });
+mongoose.connect(process.env.MONGO_URL || 'mongodb://cinema111:minhhuy123@ds147436.mlab.com:47436/cinema-mern', { useNewUrlParser: true });
 
 // check connect successfully
 const db = mongoose.connection;
